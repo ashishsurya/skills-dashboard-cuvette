@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 21px 40px;
+  height: 44px;
+  border-bottom: 2px solid #ebf0f5;
+}
+
+.profile__wrapper {
+  height: 44px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+}
+
+.profile__wrapper > img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
