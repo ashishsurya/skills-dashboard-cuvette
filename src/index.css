@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .custom-height {
   /* height: calc(100vh - 87px); */
 }
 
+@layer components {
+  .grid-item-wrapper {
+    @apply p-4 rounded-md border;
+  }
+}

@@ -2,7 +2,7 @@ import CourseMetadata from './CourseMetadata';
 
 const HTMLHeader = () => {
   return (
-    <div className='col-span-7 border rounded-md p-4 flex items-center gap-2'>
+    <div className='col-span-7 grid-item-wrapper flex items-center gap-2'>
       <img src='/html.png' alt='' className='h-12 object-contain' />
         <CourseMetadata
           num_questions={9}
