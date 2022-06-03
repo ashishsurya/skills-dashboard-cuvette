@@ -1,9 +1,15 @@
-import Header from './components/Header/Header';
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='font-poppins'>
       <Header />
+      <div className='flex custom-height'>
+        <SideBar />
+        <Dashboard />
+      </div>
     </div>
   );
 }
