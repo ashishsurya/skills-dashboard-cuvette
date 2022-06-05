@@ -43,7 +43,7 @@ const StatsEditModal = () => {
           onChange={setLocalPer}
         />
         <ModalDataEdit
-          label='rank'
+          label='current score (out of 15)'
           num={1}
           value={localcrctAns}
           onChange={setLocalcrctAns}

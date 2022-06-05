@@ -1,12 +1,7 @@
-import { useEffect } from 'react';
 import CustomIconWrapper from './CustomIconWrapper';
 
 const StatsComponent = ({ iconSrc, data, label }) => {
-  useEffect(() => {
-    return () => {
-      console.log('RERENDERED');
-    };
-  });
+  
 
   return (
     <div className='flex items-center p-4'>

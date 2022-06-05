@@ -3,7 +3,6 @@ import getColor from '../utils/getColor';
 import ProgressBar from './ProgressBar';
 
 const TopicWiseAnalysis = ({ topic_name, percentage }) => {
-  console.log(getColor(percentage));
 
   return (
     <Fragment>
