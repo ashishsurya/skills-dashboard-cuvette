@@ -3,7 +3,7 @@ import TopicWiseAnalysis from './TopicWiseAnalysis';
 const SyllabusAnalysis = () => {
   return (
     <div className='col-span-5  row-span-4  grid-item-wrapper'>
-      <h3 className='text-base font-bold'>Syllabus Wise Analysis</h3>
+      <h3>Syllabus Wise Analysis</h3>
       <div className='pt-4 flex flex-col gap-3'>
         <TopicWiseAnalysis
           percentage={80}

@@ -5,7 +5,16 @@ module.exports = {
       fontFamily: {
         poppins: "'DM Sans', sans-serif",
       },
+      keyframes: {
+        progress: {
+          '0%': { width: '0%' },
+          '100%': { width: '' },
+        },
+      },
+      animation: {
+        progress: 'progress 1500ms forwards',
+      },
     },
   },
   plugins: [],
-}
+};

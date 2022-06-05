@@ -6,21 +6,23 @@ const StatsWrapper = () => {
 
   return (
     <div className='col-span-7 row-span-2 grid-item-wrapper'>
-      <h3 className='font-bold'>Quick Statistics</h3>
+      <h2>Quick Statistics</h2>
       <div className='grid grid-cols-3 divide-x mt-4'>
         <StatsComponent
-          iconSrc='/cup.svg'
-          data={rank.toLocaleString()}
+          iconSrc='🏆'
+          data={parseInt(rank).toLocaleString('en-IN')}
           label='RANK'
         />
         <StatsComponent
-          iconSrc='/pad.svg'
+          iconSrc='🗓'
           data={`${percentile}%`}
           label='PERCENTILE'
         />
         <StatsComponent
-          iconSrc='/done.svg'
-          data={`${correctAnswers < 10 ? `0${correctAnswers}` : correctAnswers} / 15`}
+          iconSrc='✅'
+          data={`${
+            correctAnswers < 10 ? `0${correctAnswers}` : correctAnswers
+          } / 15`}
           label='CORRECT ANSWERS'
         />
       </div>

@@ -7,8 +7,45 @@
   /* height: calc(100vh - 87px); */
 }
 
+@layer base {
+  h1 {
+    @apply font-bold text-[2em];
+  }
+
+  h2 {
+    @apply font-bold text-[1.5em];
+  }
+
+  h3 {
+    @apply font-bold text-[1.17em];
+  }
+
+  h4 {
+    @apply font-bold text-base;
+  }
+
+  h5 {
+    @apply font-bold text-[0.83em];
+  }
+
+  h6 {
+    @apply font-bold text-[0.67em];
+  }
+}
+
 @layer components {
   .grid-item-wrapper {
     @apply p-4 rounded-md border;
+  }
+
+  .btn {
+    @apply py-2 px-9 rounded-md;
+  }
+
+  .btn-primary {
+    @apply bg-[#142683] text-white;
+  }
+  .btn-secondary {
+    @apply text-[#142683] bg-white border border-[#142683];
   }
 }
